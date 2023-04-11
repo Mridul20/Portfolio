@@ -15,6 +15,7 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
     "sass": "^1.52.2",
+    "styled-components": "^5.3.9",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },

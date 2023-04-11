@@ -3,7 +3,6 @@ import StyleContext from "../contexts/style-context";
 import Lottie from 'lottie-react';
 import animation from '../assets/animations/landingPerson.json'
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
 import Typewriter from "typewriter-effect";
 
 const Intro = () => {
@@ -17,7 +16,6 @@ const Intro = () => {
             <div>
               <h1 className={isDark ? "greeting-text dark-mode " : "greeting-text"} >
                 {" "}{"Hello , I'm Mridul "}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}>
                 I'm a 4th year undergraduate student at IIITA and currently working as Software Engeneering Intern in PhonePe
